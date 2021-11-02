@@ -16,7 +16,7 @@ export default function Menu({ styleMode }) {
             : {
                 color: "black",
                 textDecoration: "none",
-                padding: "10px",
+                padding: "20px",
                 borderBottom: "1px solid #e0e0e0",
               }
         }
@@ -35,7 +35,7 @@ export default function Menu({ styleMode }) {
             : {
                 color: "black",
                 textDecoration: "none",
-                padding: "10px",
+                padding: "20px",
                 borderBottom: "1px solid #e0e0e0",
               }
         }
@@ -56,7 +56,7 @@ export default function Menu({ styleMode }) {
             : {
                 color: "black",
                 textDecoration: "none",
-                padding: "10px",
+                padding: "20px",
                 borderBottom: "1px solid #e0e0e0",
               }
         }

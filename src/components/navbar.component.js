@@ -14,7 +14,7 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import Menu from "./menu.component";
 
 export default function Navbar() {
-  const [openDrawer, setOpenDrawer] = useState(false)
+  const [openDrawer, setOpenDrawer] = useState(false);
   return (
     <AppBar position="static">
       <Toolbar variant="dense">
@@ -45,7 +45,9 @@ export default function Navbar() {
             edge="start"
             color="inherit"
             aria-label="menu"
-            onClick={() => { setOpenDrawer(true) }}
+            onClick={() => {
+              setOpenDrawer(true);
+            }}
           >
             <MenuIcon />
           </IconButton>
@@ -57,7 +59,9 @@ export default function Navbar() {
               color="inherit"
               aria-label="menu"
               sx={{ width: 50, ml: 0.1 }}
-              onClick={() => { setOpenDrawer(false) }}
+              onClick={() => {
+                setOpenDrawer(false);
+              }}
             >
               <ChevronRightIcon />
             </IconButton>
